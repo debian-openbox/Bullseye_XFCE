@@ -1,4 +1,4 @@
-## **Bullseye_Box** (instructions in Serbian)
+## **Bullseye_Box** (instructions in Serbian) - Work in Progress
 ### *Debian Bullseye sa OpenBox WM*
 
 1. Potrebno je prvo skinuti sa Debianovog sajta ISO instalacioni fajl:
