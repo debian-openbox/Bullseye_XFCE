@@ -22,8 +22,6 @@ sudo apt install -y  bleachbit mpd ncmpcpp geany synaptic doublecmd-common termi
 sudo apt install -y ttf-mscorefonts-installer qbittorrent --no-install-recommends
 sudo apt install -y pcmanfm-qt --no-install-recommends
 
-sudo apt-get install -y mousepad apt-rdepends compton compton-conf firefox-esr xsel mirage pulseaudio numlockx pavucontrol mlocate vlc arandr apt-file xutils mesa-utils xarchiver htop sysstat acpi hardinfo hddtemp network-manager network-manager-gnome net-tools nmap dnsutils libglu1-mesa xfburn gnome-disk-utility python3-pip  fonts-ubuntu fonts-ubuntu-console suckless-tools  fbxkb  curl gmrun xscreensaver galternatives pnmixer sxiv scrot xsettingsd git wmctrl pm-utils arc-theme numix-icon-theme  policykit-1-gnome  package-update-indicator
-
 cp -Rp ~/Bullseye_Box/.config ~/
 
 cp -p ~/Bullseye_Box/.Xresources ~/
