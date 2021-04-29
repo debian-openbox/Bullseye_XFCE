@@ -18,21 +18,15 @@ sudo ./non-free.sh
 
 sudo apt-get update
 
-sudo apt install -y xorg lightdm openbox obconf tint2 lxappearance menu bleachbit mpd ncmpcpp geany synaptic doublecmd-common terminator rxvt-unicode ranger 
+sudo apt install -y  bleachbit mpd ncmpcpp geany synaptic doublecmd-common terminator rxvt-unicode simplescreenrecorder gdebi mpv nitrogen package-update-indicator firmware-linux firmware-linux-nonfree firmware-misc-nonfree xfce4 xfce4-power-manager xfce4-screenshooter xfce4-terminal mousepad ristretto thunar-archive-plugin udiskie psmisc flameshot diodon fonts-firacode lightdm lightdm-gtk-greeter network-manager-gnome package-update-indicator plymouth-themes qt5-style-plugins wmctrl xdotool htop
 sudo apt install -y ttf-mscorefonts-installer qbittorrent --no-install-recommends
 sudo apt install -y pcmanfm-qt --no-install-recommends
 
-sudo apt-get install -y micro firmware-linux firmware-linux-nonfree firmware-misc-nonfree
-
-sudo apt-get install -y mousepad apt-rdepends compton compton-conf firefox-esr xsel mirage pulseaudio numlockx pavucontrol mlocate vlc arandr apt-file xutils mesa-utils xarchiver htop sysstat acpi hardinfo hddtemp network-manager network-manager-gnome net-tools nmap dnsutils libglu1-mesa xfburn gnome-disk-utility python3-pip  fonts-ubuntu fonts-ubuntu-console suckless-tools simplescreenrecorder gdebi fbxkb mpv curl gmrun xscreensaver galternatives pnmixer sxiv scrot xsettingsd git wmctrl pm-utils arc-theme numix-icon-theme nitrogen policykit-1-gnome udiskie psmisc flameshot package-update-indicator
+sudo apt-get install -y mousepad apt-rdepends compton compton-conf firefox-esr xsel mirage pulseaudio numlockx pavucontrol mlocate vlc arandr apt-file xutils mesa-utils xarchiver htop sysstat acpi hardinfo hddtemp network-manager network-manager-gnome net-tools nmap dnsutils libglu1-mesa xfburn gnome-disk-utility python3-pip  fonts-ubuntu fonts-ubuntu-console suckless-tools  fbxkb  curl gmrun xscreensaver galternatives pnmixer sxiv scrot xsettingsd git wmctrl pm-utils arc-theme numix-icon-theme  policykit-1-gnome  package-update-indicator
 
 cp -Rp ~/Bullseye_Box/.config ~/
 
 cp -p ~/Bullseye_Box/.Xresources ~/
-
-cp -p ~/Bullseye_Box/keyboard.sh ~/
-
-sudo cp -p ~/Bullseye_Box/rs.png /usr/share/fbxkb/images/rs.png
 
 sudo cp ~/Bullseye_Box/ncmpcpp_48x48.png /usr/share/icons
 
@@ -53,7 +47,7 @@ sudo cp ~/Bullseye_Box/ncmpcpp_48x48.png /usr/share/icons
 
 ## debinfo -- prikaz resursa pri otvaranju terminala
 sudo cp ~/Bullseye_Box/scripts/debinfo /usr/bin
-sudo chmod 777 /usr/bin/debinfo
+sudo chmod 755 /usr/bin/debinfo
 echo debinfo >> ~/.bashrc
 
 ## instalacija comptona
