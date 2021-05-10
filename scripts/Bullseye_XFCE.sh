@@ -18,7 +18,7 @@ sudo ./non-free.sh
 
 sudo apt-get update
 
-sudo apt install -y  firefox-esr bleachbit mpd ncmpcpp geany synaptic doublecmd-common terminator rxvt-unicode simplescreenrecorder gdebi mpv nitrogen package-update-indicator firmware-linux firmware-linux-nonfree firmware-misc-nonfree xfce4 xfce4-power-manager xfce4-screenshooter xfce4-terminal mousepad ristretto thunar-archive-plugin udiskie psmisc flameshot diodon fonts-firacode lightdm lightdm-gtk-greeter network-manager-gnome package-update-indicator plymouth-themes qt5-style-plugins wmctrl xdotool htop
+sudo apt install -y  firefox-esr bleachbit mpd ncmpcpp geany synaptic doublecmd-common terminator rxvt-unicode simplescreenrecorder gdebi mpv nitrogen package-update-indicator firmware-linux firmware-linux-nonfree firmware-misc-nonfree xfce4 xfce4-power-manager xfce4-screenshooter xfce4-terminal mousepad ristretto thunar-archive-plugin udiskie psmisc flameshot diodon fonts-firacode lightdm lightdm-gtk-greeter network-manager-gnome package-update-indicator plymouth-themes qt5-style-plugins wmctrl xdotool htop xfce4-xkb-plugin
 sudo apt install -y ttf-mscorefonts-installer qbittorrent --no-install-recommends
 sudo apt install -y pcmanfm-qt --no-install-recommends
 
