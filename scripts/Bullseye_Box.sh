@@ -96,8 +96,11 @@ sudo apt-get -f install && rm wps-office.deb
 cd /home/$(logname)/Bullseye_Box/scripts/
 sudo ./install_missing_wps_fonts.sh
 
-# dt-dark-theme
-cp -pR /home/$(logname)/Bullseye_Box/.themes /home/$(logname)/
+# Nordic-master
+mkdir /home/$(logname)/Bullseye_Box/.themes
+cd /home/$(logname)/Bullseye_Box/.themes
+wget https://mega.nz/folder/wZ01xKSK#4dSJsfqQHIwn1MY9_3SMlQ
+xfconf-query -c xsettings -p /Net/ThemeName -s "Nordic-master"
 
 
 # cd ~/projects/debian-openbox/10_openbox_conky
