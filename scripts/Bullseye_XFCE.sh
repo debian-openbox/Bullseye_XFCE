@@ -97,16 +97,18 @@ cd /home/$(logname)/Bullseye_XFCE/scripts/
 sudo ./install_missing_wps_fonts.sh
 
 # Nordic-master
-mkdir /home/$(logname)/.themes
-cd /home/$(logname)/.themes
-wget https://mega.nz/folder/wZ01xKSK#4dSJsfqQHIwn1MY9_3SMlQ
+mkdir -p /home/$(logname)/.themes
+mkdir -p /tmp/unziped
+cd /tmp/unziped && wget wget https://github.com/EliverLara/Nordic/archive/refs/heads/master.zip
+unzip master.zip -d /home/$(logname)/.themes
 xfconf-query -c xsettings -p /Net/ThemeName -s "Nordic-master"
 
+
+
 # Flat-Remix-Blue
-mkdir /home/$(logname)/.icons
-cd /home/$(logname)/.themes
-wget https://mega.nz/folder/tQ8xzYJT#K2NW89NhEu3JcMjVaq4eFA
-wget https://mega.nz/folder/xM0jACjS#WsKhVt_PyLmStxB_I4PN_Q
+mkdir -p /tmp/unziped1 && mkdir /home/$(logname)/.icons
+cd /tmp/unziped1 && wget https://github.com/daniruiz/flat-remix/archive/refs/heads/master.zip && unzip master.zip
+cp -pr flat-remix-master/Flat-Remix-Blue-Dark /home/$(logname)/.icons && cp -pr flat-remix-master/Flat-Remix-Blue-Light /home/$(logname)/.icons
 xfconf-query -c xsettings -p /Net/IconThemeName -s "Flat-Remix-Blue-Dark"
 sudo update-icon-caches /home/$(logname)/.icons/*
 
