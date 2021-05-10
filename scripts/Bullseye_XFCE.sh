@@ -97,14 +97,14 @@ cd /home/$(logname)/Bullseye_XFCE/scripts/
 sudo ./install_missing_wps_fonts.sh
 
 # Nordic-master
-mkdir /home/$(logname)/Bullseye_XFCE/.themes
-cd /home/$(logname)/Bullseye_XFCE/.themes
+mkdir /home/$(logname)/.themes
+cd /home/$(logname)/.themes
 wget https://mega.nz/folder/wZ01xKSK#4dSJsfqQHIwn1MY9_3SMlQ
 xfconf-query -c xsettings -p /Net/ThemeName -s "Nordic-master"
 
 # Flat-Remix-Blue
-mkdir /home/$(logname)/Bullseye_XFCE/.icons
-cd /home/$(logname)/Bullseye_XFCE/.themes
+mkdir /home/$(logname)/.icons
+cd /home/$(logname)/.themes
 wget https://mega.nz/folder/tQ8xzYJT#K2NW89NhEu3JcMjVaq4eFA
 wget https://mega.nz/folder/xM0jACjS#WsKhVt_PyLmStxB_I4PN_Q
 xfconf-query -c xsettings -p /Net/IconThemeName -s "Flat-Remix-Blue-Dark"
