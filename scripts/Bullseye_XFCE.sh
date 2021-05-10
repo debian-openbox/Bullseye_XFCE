@@ -102,6 +102,14 @@ cd /home/$(logname)/Bullseye_Box/.themes
 wget https://mega.nz/folder/wZ01xKSK#4dSJsfqQHIwn1MY9_3SMlQ
 xfconf-query -c xsettings -p /Net/ThemeName -s "Nordic-master"
 
+# Flat-Remix-Blue
+mkdir /home/$(logname)/Bullseye_Box/.icons
+cd /home/$(logname)/Bullseye_Box/.themes
+wget https://mega.nz/folder/tQ8xzYJT#K2NW89NhEu3JcMjVaq4eFA
+wget https://mega.nz/folder/xM0jACjS#WsKhVt_PyLmStxB_I4PN_Q
+xfconf-query -c xsettings -p /Net/IconThemeName -s "Flat-Remix-Blue-Dark"
+sudo update-icon-caches /home/$(logname)/.icons/*
+
 
 # cd ~/projects/debian-openbox/10_openbox_conky
 # sudo ./install.sh
