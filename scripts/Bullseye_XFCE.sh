@@ -166,7 +166,7 @@ cp -p ~/Bullseye_XFCE/ext/* ~/.urxvt/ext/
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/urxvtc 50
 sudo update-alternatives --set x-terminal-emulator /usr/bin/terminator
 
-cd ~/Bullseye_XFCE/scripts/openXFCE_conky
+cd ~/Bullseye_XFCE/scripts/openbox_conky
 sudo ./install.sh
 
 cd ~/Bullseye_XFCE/scripts/install_vim/
