@@ -7,5 +7,6 @@
     <property name="XkbOptions" type="empty">
       <property name="Group" type="string" value="grp:shifts_toggle"/>
     </property>
+    <property name="XkbDisable" type="bool" value="false"/>
   </property>
 </channel>
