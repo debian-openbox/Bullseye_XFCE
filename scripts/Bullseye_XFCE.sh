@@ -127,8 +127,8 @@ sudo update-icon-caches /home/$(logname)/.icons/*
 # sudo ./install.sh
 
 # Copy wallpapers folderes
-sudo cp -r ~/Bullseye_XFCE/WALLPAPERS/Wallpapers_Debian /usr/share/backgrounds
-sudo cp -r ~/Bullseye_XFCE/WALLPAPERS/wallpapers-pixabay /usr/share/backgrounds
+sudo cp -Rp ~/Bullseye_XFCE/WALLPAPERS/Wallpapers_Debian /usr/share/backgrounds
+sudo cp -Rp ~/Bullseye_XFCE/WALLPAPERS/wallpapers-pixabay /usr/share/backgrounds
 
 # sudo sed -i 's!wallpapers-pack1!wallpapers-pixabay!' ~/projects/debian-openXFCE/15_openXFCE_wallpaper-packs/install.sh
 # sudo sed -i 's!bl-colorful-aptenodytes-forsteri-by-nixiepro.png!bridge-2936500_1920.jpg!' ~/projects/debian-openXFCE/15_openXFCE_wallpaper-packs/install.sh
