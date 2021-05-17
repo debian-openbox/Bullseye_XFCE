@@ -63,6 +63,7 @@
       <property name="&lt;Super&gt;w" type="string" value="firefox-esr"/>
       <property name="&lt;Super&gt;l" type="string" value="xflock4"/>
       <property name="&lt;Super&gt;t" type="string" value="exo-open --launch TerminalEmulator"/>
+      <property name="&lt;Super&gt;h" type="string" value="terminator -T htop -e htop"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
