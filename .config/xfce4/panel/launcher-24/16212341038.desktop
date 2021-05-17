@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Terminator
 Comment=Multiple terminals in one window
-TryExec=terminator
+TryExec=/usr/bin/terminator
 Exec=terminator
 Icon=terminator
 Type=Application
