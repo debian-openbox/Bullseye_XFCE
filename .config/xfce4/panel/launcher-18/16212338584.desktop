@@ -1,6 +1,6 @@
 [Desktop Entry]
 Version=1.0
-Exec=xfce4-appfinder
+Exec=/usr/bin/xfce4-appfinder
 Icon=org.xfce.appfinder
 StartupNotify=true
 Terminal=false
