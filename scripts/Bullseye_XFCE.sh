@@ -49,10 +49,10 @@ sudo chmod 755 /usr/bin/debinfo
 echo debinfo >> ~/.bashrc
 
 ## instalacija comptona
-cp ~/Bullseye_XFCE/scripts/install_compton.sh ~/.scripts
-mkdir ~/bin
-cp ~/Bullseye_XFCE/start-compton.sh ~/bin
-sudo chmod -R 755 ~/bin
+#cp ~/Bullseye_XFCE/scripts/install_compton.sh ~/.scripts
+#mkdir ~/bin
+#cp ~/Bullseye_XFCE/start-compton.sh ~/bin
+#sudo chmod -R 755 ~/bin
 
 ## instalacija ncmpcpp
 cp -Rp ~/Bullseye_XFCE/.ncmpcpp ~/
