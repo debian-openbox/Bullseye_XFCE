@@ -155,15 +155,6 @@ sudo sed -i "s/^.*Exec=htop.*$/$(cat /tmp/htop_replacement)/" /usr/share/applica
 
 sudo sed -i 's!Terminal=true!Terminal=false!' /usr/share/applications/htop.desktop
 
-echo "Exec=x-terminal-emulator -T 'ranger task manager' -e ranger" > /tmp/ranger_replacement
-
-sudo sed -i "s/^.*Exec=ranger.*$/$(cat /tmp/ranger_replacement)/" /usr/share/applications/ranger.desktop
-
-sudo sed -i 's!Terminal=true!Terminal=false!' /usr/share/applications/ranger.desktop
-
-mkdir -p ~/.urxvt/ext
-cp -p ~/Bullseye_XFCE/ext/* ~/.urxvt/ext/
-sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/urxvtc 50
 sudo update-alternatives --set x-terminal-emulator /usr/bin/terminator
 
 #cd ~/Bullseye_XFCE/scripts/openbox_conky
