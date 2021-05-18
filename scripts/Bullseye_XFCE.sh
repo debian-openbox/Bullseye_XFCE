@@ -101,7 +101,7 @@ mkdir -p /home/$(logname)/.themes
 mkdir -p /tmp/unziped
 cd /tmp/unziped && wget wget https://github.com/EliverLara/Nordic/archive/refs/heads/master.zip
 unzip master.zip -d /home/$(logname)/.themes
-xfconf-query -c xsettings -p /Net/ThemeName -s "Nordic-master"
+xfconf-query -c xsettings -p /Net/ThemeName -s "Arc-Dark"
 
 
 
