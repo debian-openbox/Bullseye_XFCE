@@ -109,8 +109,8 @@ xfconf-query -c xsettings -p /Net/ThemeName -s "Arc-Dark"
 #mkdir -p /tmp/unziped1 && mkdir /home/$(logname)/.icons
 #cd /tmp/unziped1 && wget https://github.com/daniruiz/flat-remix/archive/refs/heads/master.zip && unzip master.zip
 #cp -pr flat-remix-master/Flat-Remix-Blue-Dark /home/$(logname)/.icons && cp -pr flat-remix-master/Flat-Remix-Blue-Light /home/$(logname)/.icons
-#xfconf-query -c xsettings -p /Net/IconThemeName -s "Flat-Remix-Blue-Dark"
-#sudo update-icon-caches /home/$(logname)/.icons/*
+xfconf-query -c xsettings -p /Net/IconThemeName -s "Oxygen"
+sudo update-icon-caches /home/$(logname)/.icons/*
 
 
 # cd ~/projects/debian-openXFCE/10_openXFCE_conky
