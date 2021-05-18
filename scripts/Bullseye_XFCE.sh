@@ -174,6 +174,10 @@ sudo ./install.sh
 
 sudo ln -s /usr/bin/python3 /usr/bin/python
 
+# mousepad settings
+gsettings set org.xfce.mousepad.preferences.view show-line-numbers true
+gsettings set org.xfce.mousepad.preferences.view color-scheme 'solarized-dark'
+
 sudo chown -R $(logname):$(logname) /home/$(logname)/
 #find /home/$(logname) -name '.*' | xargs sudo chown $(logname):$(logname)
 #find /home/$(logname) -type f | xargs sudo chmod 700
