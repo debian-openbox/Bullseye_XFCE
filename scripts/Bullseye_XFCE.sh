@@ -18,7 +18,7 @@ sudo ./non-free.sh
 
 sudo apt-get update
 
-sudo apt install -y task-xfce-desktop libreoffice*- parole- && sudo apt install -y firefox-esr bleachbit mpd ncmpcpp geany synaptic doublecmd-common terminator rxvt-unicode simplescreenrecorder gdebi mpv package-update-indicator firmware-linux firmware-linux-nonfree firmware-misc-nonfree  mousepad ristretto  psmisc flameshot diodon fonts-firacode lightdm lightdm-gtk-greeter package-update-indicator plymouth-themes qt5-style-plugins wmctrl xdotool htop xfce4-xkb-plugin numlockx curl bsdmainutils arc-theme timeshift
+sudo apt install -y task-xfce-desktop libreoffice*- parole- && sudo apt install -y firefox-esr bleachbit mpd ncmpcpp geany synaptic doublecmd-common terminator rxvt-unicode simplescreenrecorder gdebi mpv package-update-indicator firmware-linux firmware-linux-nonfree firmware-misc-nonfree  mousepad ristretto  psmisc flameshot diodon fonts-firacode lightdm lightdm-gtk-greeter package-update-indicator plymouth-themes qt5-style-plugins wmctrl xdotool htop xfce4-xkb-plugin numlockx curl bsdmainutils arc-theme oxygen-icon-theme timeshift
 sudo apt install -y ttf-mscorefonts-installer qbittorrent --no-install-recommends
 sudo apt install -y pcmanfm-qt --no-install-recommends
 
