@@ -1,5 +1,5 @@
 ## **Bullseye_XFCE** (instructions in Serbian) - Work in Progress
-### *Debian Bullseye sa Custom Lightweight XFCE*
+### *Debian Bullseye with Custom Lightweight XFCE*
 
 1. Potrebno je prvo skinuti sa Debianovog sajta ISO instalacioni fajl:
     * https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/weekly-builds/amd64/iso-cd/firmware-testing-amd64-netinst.iso
